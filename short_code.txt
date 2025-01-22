@@ -50,4 +50,29 @@
     // array relate:
 
     // if(total_sum % n ==0) possible to all emement equal in array; sun/2 
+
+
+    // copy one array to another : 
+     arr = [5, 3, 8, 1, 7]  // Original array
+     temp = [3, 5]          // Temporary array (sorted portion)
+     low = 0, high = 1      // Indices to update in arr
+       output: arr = [3, 5, 8, 1, 7]
+
+for(int i = low; i <= high; i++) {
+    arr[i] = temp[i - low];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
